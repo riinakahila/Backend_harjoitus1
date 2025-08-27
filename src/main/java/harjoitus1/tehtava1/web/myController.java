@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 public class myController {
 
-    @RequestMapping("/main")
+    @RequestMapping("/hello")
     @ResponseBody
 
     public String returnMessage( 
